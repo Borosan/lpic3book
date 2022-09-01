@@ -21,3 +21,7 @@ Donation :
 * bitcoin: bc1qhm5nr98su6xupv4dd6zt2m0sq2dzxh69zejm85
 * ethereum: 0x6F3D43A6957CC61b74Fe85Ad52D05d91a2B13c67
 * litecoin: ltc1qvxu57q2f3ay9tzu6tffkayc65te80vax9wzxn7
+
+
+
+<figure><img src=".gitbook/assets/cc_by_nc_icon_88x31.png" alt=""><figcaption></figcaption></figure>
