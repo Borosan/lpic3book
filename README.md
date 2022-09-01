@@ -1,2 +1,2 @@
-# lpic3book
+# Introduction
 LPIC3 Study Guide in plain English
