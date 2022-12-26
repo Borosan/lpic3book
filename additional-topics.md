@@ -1,6 +1,6 @@
 # Additional Topics
 
-These are some additional notes from previous versions of lpi exam.
+These are some additional notes from previous versions of lpi exams.
 
 ## Linux Login basics
 
@@ -137,7 +137,7 @@ Options:
 A value of -1 may be used to inactive many options.
 {% endhint %}
 
-### NSS Concepts
+## NSS Concepts
 
 NSS stands for Name Service Switch. It connects calls for information from a system data base to a back-end service.
 
@@ -244,7 +244,7 @@ The PAM framework consists of a library, pluggable modules, and a configuration 
 * **Pluggable modules** are dynamically loaded by the library based on the invoking service and its entry in the configuration file. Success is determined not only by the pluggable module but also by the behavior defined for the service. Through the concept of _stacking_, a service can be configured to authenticate through multiple authentication methods. If supported, modules can also be configured to use a previously submitted password rather than prompting for additional input.
 * **configuration file** In earlier versions of PAM, the /etc/pam.conf file was used, but this file is now deprecated and is only used if the /etc/pam.d/ directory does not exist
 
-#### How PAM Works
+### How PAM Works
 
 The functionality of the PAM system is actually fairly basic. Any service that requires authentication is linked against the PAM libraries included with Linux.
 
@@ -398,7 +398,7 @@ Locks accounts (including root) for 20 minutes after 4 failed login attempts.
 
 ## Kerbrose
 
-#### What is kerbrose?
+### What is kerbrose?
 
 Kerberos is a computer network security protocol that authenticates service requests between two or more trusted hosts across an untrusted network, like the internet. It uses secret-key cryptography and a trusted third party for authenticating client-server applications and verifying users' identities.
 
@@ -410,7 +410,7 @@ Initially developed by the Massachusetts Institute of Technology (MIT) for Proje
 Microsoft rolled out its version of Kerberos in Windows 2000, and it's become the go-to protocol for websites and single sign-on implementations over different platforms. The[ Kerberos Consortium](http://kerberos.org/) maintains the Kerberos as an open-source project.
 {% endhint %}
 
-#### How Kerbrose works?
+### How Kerbrose works?
 
 &#x20;In Kerberos Authentication server and database is used for client authentication. Kerberos runs as a third-party trusted server known as the Key Distribution Center (KDC). Each user and service on the network is a principal.&#x20;
 
@@ -437,7 +437,7 @@ What is **REALM**?
 Kerberos servers operate in a limited network region, called a _realm_. Realms are identified by domain name system named domains. A principal's realm is the domain name in which the Kerberos server operates.
 {% endhint %}
 
-#### /etc/krb5.conf
+### /etc/krb5.conf
 
 The krb5.conf file contains Kerberos configuration information, including the locations of KDCs and administration daemons for the Kerberos realms of interest, defaults for the current realm and for Kerberos applications, and mappings of host names onto Kerberos realms. This file must reside on all Kerberos clients.
 
@@ -504,7 +504,7 @@ The krb5.conf file can contain any or all of the following sections:
 
 List of some commands that are included in the Kerberos product:
 
-<table><thead><tr><th>Command</th><th>Description</th><th data-hidden></th></tr></thead><tbody><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr></tbody></table>
+<table><thead><tr><th>Command</th><th>Description</th><th data-hidden></th></tr></thead><tbody><tr><td>kinit</td><td>Obtains and caches Kerberos ticket-granting tickets</td><td></td></tr><tr><td>klist</td><td>Displays current Kerberos tickets</td><td></td></tr><tr><td>kpasswd</td><td>Changes a Kerberos password</td><td></td></tr><tr><td>kdestroy</td><td>Destroys Kerberos tickets</td><td></td></tr></tbody></table>
 
 ## Understanding sssd
 
@@ -527,7 +527,7 @@ Users on the local system are then able to authenticate using the user accounts 
 
 > SSSD can also provide caches for several system services, such as Name Service Switch (NSS) or Pluggable Authentication Modules (PAM).
 
-#### /etc/sssd/sssd.conf
+### /etc/sssd/sssd.conf
 
 SSSD services and domains are configured in a `.conf` file. By default, this is `/etc/sssd/sssd.conf` — although that file must be created and configured manually, since SSSD is not configured after installation.
 
@@ -700,7 +700,7 @@ auth_provider = local
 
 There are different sss\_\* commands and each serves different functions(you might need to install sssd):
 
-<table><thead><tr><th>Command</th><th></th><th data-hidden></th></tr></thead><tbody><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr></tbody></table>
+<table><thead><tr><th>Command</th><th>Description</th><th data-hidden></th></tr></thead><tbody><tr><td><strong>sss_useradd</strong></td><td>creates a new user account using the values specified on the command line plus the default values from the system.</td><td></td></tr><tr><td><strong>sss_userdel</strong></td><td>deletes a user identified by login name <em>LOGIN</em> from the system.</td><td></td></tr><tr><td><strong>sss_usermod</strong></td><td>modifies the account specified by <em>LOGIN</em> to reflect the changes that are specified on the command line.</td><td></td></tr><tr><td><strong>sss_groupadd</strong></td><td>creates a new group. These groups are compatible with POSIX groups, with the additional feature that they can contain other groups as members.</td><td></td></tr><tr><td><strong>sss_groupdel</strong></td><td>deletes a group identified by its name <em>GROUP</em> from the system.</td><td></td></tr><tr><td><strong>sss_groupshow</strong></td><td>displays information about a group identified by its name <em>GROUP</em>. The information includes the group ID number, members of the group and the parent group.</td><td></td></tr><tr><td><strong>sss_cache</strong></td><td>invalidates records in SSSD cache. Invalidated records are forced to be reloaded from server as soon as related SSSD backend is online.</td><td></td></tr><tr><td><strong>sss_obfuscate</strong></td><td>converts a given password into human-unreadable format and places it into appropriate domain section of the SSSD config file.</td><td></td></tr></tbody></table>
 
 > read man page of each commands above for more information
 
