@@ -710,37 +710,3 @@ There are different sss\_\* commands and each serves different functions(you mig
 
 .
 
-resources:
-
-[https://www.thegeekdiary.com/understanding-etclogin-defs-file/#:\~:text=The%20%2Fetc%2Flogin.,directive%20name%20and%20associated%20value.](https://www.thegeekdiary.com/understanding-etclogin-defs-file/)
-
-[https://www.man7.org/linux/man-pages/man5/login.defs.5.html](https://www.man7.org/linux/man-pages/man5/login.defs.5.html)
-
-[https://linuxhint.com/use-linux-chage-command/](https://linuxhint.com/use-linux-chage-command/)
-
-[https://man7.org/linux/man-pages/man5/nss.5.html](https://man7.org/linux/man-pages/man5/nss.5.html)
-
-[https://tecadmin.net/what-is-etc-nsswitch-conf-file/](https://tecadmin.net/what-is-etc-nsswitch-conf-file/)
-
-[https://www.ibm.com/docs/en/aix/7.2?topic=system-pluggable-authentication-modules](https://www.ibm.com/docs/en/aix/7.2?topic=system-pluggable-authentication-modules)
-
-[https://docs.oracle.com/cd/E19683-01/816-4883/pam-32/index.html#:\~:text=The%20PAM%20configuration%20file%2C%20%2Fetc,for%20each%20system%20entry%20application.](https://docs.oracle.com/cd/E19683-01/816-4883/pam-32/index.html)
-
-[https://access.redhat.com/documentation/en-us/red\_hat\_enterprise\_linux/6/html/managing\_smart\_cards/pam\_configuration\_files](https://access.redhat.com/documentation/en-us/red\_hat\_enterprise\_linux/6/html/managing\_smart\_cards/pam\_configuration\_files)
-
-[https://www.thegeekdiary.com/pam-password-complexity-and-pam\_cracklib-credit-system-in-centos-rhel/](https://www.thegeekdiary.com/pam-password-complexity-and-pam\_cracklib-credit-system-in-centos-rhel/)
-
-[https://www.tecmint.com/use-pam\_tally2-to-lock-and-unlock-ssh-failed-login-attempts/](https://www.tecmint.com/use-pam\_tally2-to-lock-and-unlock-ssh-failed-login-attempts/)
-
-[https://www.simplilearn.com/what-is-kerberos-article](https://www.simplilearn.com/what-is-kerberos-article)
-
-[https://www.geeksforgeeks.org/kerberos/](https://www.geeksforgeeks.org/kerberos/)
-
-[https://www.techtarget.com/searchsecurity/definition/Kerberos](https://www.techtarget.com/searchsecurity/definition/Kerberos)
-
-[https://docs.oracle.com/cd/E86824\_01/html/E54775/krb5.conf-4.html#:\~:text=The%20krb5.,reside%20on%20all%20Kerberos%20clients.](https://docs.oracle.com/cd/E86824\_01/html/E54775/krb5.conf-4.html)
-
-[https://access.redhat.com/documentation/en-us/red\_hat\_enterprise\_linux/7/html/system-level\_authentication\_guide/sssd](https://access.redhat.com/documentation/en-us/red\_hat\_enterprise\_linux/7/html/system-level\_authentication\_guide/sssd)
-
-[https://access.redhat.com/documentation/en-us/red\_hat\_enterprise\_linux/6/html/deployment\_guide/about-sssd-conf](https://access.redhat.com/documentation/en-us/red\_hat\_enterprise\_linux/6/html/deployment\_guide/about-sssd-conf)
-
