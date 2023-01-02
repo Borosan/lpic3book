@@ -1,6 +1,6 @@
 # Introduction
 
-Welcome to lpic3 book. The lpic3 exam covers a wide range of content and requires practical experience to succeed. The idea of ​​creating this book came to me when I was updating my degree and I decided to share some of my tips and writings with you. Maybe naming the exam guide is not a good choice and it should be called test tips. But to maintain integrity with my previous books, let's use this name. You can study this book topically or for the exam, but don't forget that lpic1 and lpic2 are prerequisites for this book.&#x20;
+Welcome to lpic3 book. The lpic3 exam covers a wide range of content and requires practical experience to succeed. The idea of ​​creating this book came to me when I was updating my degree and I decided to share some of my tips and writings with you. Maybe naming the exam guide is not a good choice and it should be called exam tips. But to maintain integrity with my previous books, let's use this name. You can study this book topically or for the exam, but don't forget that lpic1 and lpic2 are prerequisites for this book.&#x20;
 
 lpic3 has different trends and in this book we have discussed lpic3 security exam.You can see the overview of LPIC3 Security Certification [here](https://www.lpi.org/our-certifications/lpic-3-303-overview). And as you probably know LPIC3 security is consist of one exams [303](https://www.lpi.org/our-certifications/exam-303-objectives).
 
